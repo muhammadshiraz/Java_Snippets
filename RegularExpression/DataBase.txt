@@ -1,0 +1,19 @@
+create database aptechsfc
+
+use aptechsfc
+
+
+create table tblUser
+(
+id int identity(1,1) primary key,
+name nvarchar(50),
+city nvarchar(50),
+age nvarchar(50)
+)
+
+insert into tblUser values ('','','')
+
+
+select id from tblUser order by id desc
+
+select * from tblUser
